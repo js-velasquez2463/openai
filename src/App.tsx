@@ -1,11 +1,10 @@
 import "./styles.css";
-import SignupForm from "./SignupForm";
+import SignupForm from "./signUp/FormComponent";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox 3</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>CodeSandbox Placer Test</h1>
       <SignupForm />
     </div>
   );
